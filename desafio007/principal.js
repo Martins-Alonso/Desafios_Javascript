@@ -1,11 +1,15 @@
-let comecar = function(comecar){
-    let nome = prompt("Digite o nome do Aluno")
-    let nota1 = parseInt(prompt("Digite a primeira nota de " + nome))
-    let nota2 = parseInt(prompt("Digite a segunda nota de " +nome))
-    let media = (nota1 + nota2) / 2
-    var resultado = document.querySelector("botao")
-    var novopara = document.createElement("p")
-    novopara.textContent = `${media}`
-    console.log(novopara)
-    return comecar
+function media() {
+    let resultado = document.getElementById("resultado")
+    let someTexto = document.getElementById("someTexto")
+
+    let nome = prompt("Qual o seu nome ?")
+    let primeiraNota = parseInt(prompt("Digite a primeira nota de " + nome))
+    let segundaNota = parseInt(prompt("Digite a segunda nota de " + nome))
+    let media = ((primeiraNota + segundaNota) / 2)
+
+    let criaParagrafro = document.createElement("p")
+    resultado.appendChild(criaParagrafro)
+    criaParagrafro.textContent = `A média do ${nome} é de: ${media}`
+
+    someTexto.textContent = "";
 }
