@@ -5,11 +5,8 @@ function clicar() {
     
     resultado.innerHTML = `<p>O contador está em<strong> ${++contador}</strong> cliques</p>` 
     resultado = "";
-    console.log(resultado)
 }
 function zerar() {
-
     contador = 0;
-    resultado.innerHTML = `<br>O Contador Zerou!</br>`
-
+    resultado.innerHTML = `O Contador Zerou!`
 }
