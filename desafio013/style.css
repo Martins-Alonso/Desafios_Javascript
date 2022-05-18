@@ -1,0 +1,18 @@
+h1{
+    font-size: 30px;
+    color: rgb(32, 210, 150);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#calcular{
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px;
+}
+#resultado{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
