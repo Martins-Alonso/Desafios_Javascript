@@ -1,0 +1,20 @@
+#title{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.mudaCor{
+    color: red;
+}
+#btn{
+    height: 90px;
+    width: 150px;
+    background-color: rgb(68, 198, 68);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px;
+}
+#resultado{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
