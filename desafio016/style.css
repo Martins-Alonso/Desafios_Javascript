@@ -1,0 +1,23 @@
+#title{
+    background-color: aquamarine;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#btn-iniciar{
+    height: 100px;
+    width: 150px;
+    font-size: larger;
+    font-size: 25px;
+    background-color: greenyellow;
+    border-radius: 5px;
+}
+#resultado{
+    font-size: large;
+    font-size: 25px;
+}
+.mudaCor{
+    background-color: blue;
+    font-size: 50px;
+}
