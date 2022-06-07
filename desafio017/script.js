@@ -6,9 +6,7 @@ function mathRandomico(){
     }else{
         return false
     }
-    
 }
-
 function gerador(){
     resultado.innerText = `Acabei de pensar no número: ${mathRandomico()}`
 }
