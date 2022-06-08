@@ -1,0 +1,29 @@
+#title{
+    text-align: center;
+    background-color: aquamarine;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    box-shadow: 5px 10px 5px;
+}
+
+#btn-iniciar{
+    height: 80px;
+    width: 200px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px;
+}
+#btn-iniciar:hover{
+    transition: 0.2s;
+    height: 100px;
+    width: 220px;
+    background-color: darkslategrey;
+    color: white;
+    border-radius: 10px;
+}
+#resultado{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
